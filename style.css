@@ -1,0 +1,48 @@
+/*
+File: style.css
+GUI Assignment: Creating Your First Web Page
+Adam El-Telbani, UMass Lowell Computer Science, Adam_ElTelbani@student.uml.edu
+Copyright (c) 2024 by Adam. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Adam on May 18, 2024 at 8:20PM
+*/
+
+/* Add space between p and table along with changing the font */
+p {
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Add a black border to table and change the padding and font size */
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+  font-size: 18px; 
+}
+
+ /* Align iamges in the table center */
+ td img {
+    display: block;
+    margin:  auto;
+  }
+
+  .travel-image {
+    width: 600px; 
+    height: auto;
+  }
+  
+  h1 { 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  body {
+    background-color:lightblue;
+  }
