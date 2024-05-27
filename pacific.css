@@ -1,6 +1,18 @@
+/*
+File: pacific.css
+GUI Assignment: Creating Your First Web Page
+Adam El-Telbani, UMass Lowell Computer Science, Adam_ElTelbani@student.uml.edu
+Copyright (c) 2024 by Adam. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Adam on May 27, 2024 at 12:51PM
+*/
+
+/* Sets most elements to block so it's easier to reorganize */
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
+
+/* Styling for the body: Sets background image, color, font, and margin */
 body {
 	background-image: url("ptrbackground.jpg");
 	background-color: #00569f;
@@ -22,6 +34,8 @@ header{
     color:white;
     padding: 0;
 }
+
+/* Styling for heading elements: Sets margin, padding, color, and font family */
 h1 {
 	margin-bottom: 0;
 	padding: 10px;
@@ -69,6 +83,8 @@ nav a:visited {
     margin-left: 190px;
     padding: 30px;
 }
+
+/* Changes bulletpoint to "marker.gif" */
 #content ul{
     list-style: inside url('marker.gif');
     padding: 0;
